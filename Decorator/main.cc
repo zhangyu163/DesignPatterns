@@ -33,7 +33,7 @@ void Test()
 	CLeatherShoes* pLeathershoes = new CLeatherShoes(*person);
 	CTie* pTie = new CTie(*person);
 	CSuit* pSuit = new CSuit(*person);
-	pLeathershoes->Decorate(person);
+	pLeathershoes->Decorate(person)
 	pTie->Decorate(pLeathershoes);
 	pSuit->Decorate(pTie);
 	pSuit->ShowClothes();
